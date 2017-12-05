@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+body {
+	background-color: #366d6d;
+	font-family:"Lato";
+	font-weight: 300;
+	font-size: 16px;
+    color: #33CC99;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+	font-weight: 300;
+	font-size: 16px;
+    color: #33CC99;
+}
+
+p {
+	line-height: 28px;
+	margin-bottom: 25px;
+}
+.centered {
+	text-align: center;
+}
+.navbar-inverse {
+	background-color: #66CC99;
+	border-color: #009966;
+}
+.navbar-inverse .navbar-brand {
+	color: #FFD700;
+	font-weight: bolder;
+	font-size: 22px;
+	letter-spacing: 1px;
+}
+
+.navbar-inverse  .navbar-nav > .active > a {
+	background-color: #FFD700;
+	}
+
+
+a{
+	color: #FFD700;
+}
+a:hover, a:focus {
+	color: #FFD700;
+	text-decoration: none; 
+	outline: 0;
+}
+
+hr {
+	display: block;
+	height: 1 px;
+	border: 0;
+	border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+.navbar {
+	font-weight: 800;
+	font-size: 14 px;
+	padding-top: 15px;
+	padding-bottom: 15 px;
+}
+
+#headerwrap {
+	background: url(../jmg/b1.jpg) no-repeat center top;
+	margin-top: -10px;
+	padding-top: 20px;
+	text-align: center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	background-size: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
+
+#headerwrap h1 {
+	 font-family: "Raleway";
+	margin-top: 100px;
+	color: white;
+	font-size: 70px;
+	font-weight: 300;
+	letter-spacing: 3px;
+}
+
+#headerwrap h2 {
+	color: white;
+	font-size: 40px;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.w {
+	padding-top: 35px;
+}
+
+.w h4 {
+	font-size: 20px;
+}
+
+#dg {
+	background: #006633;
+	padding-top:  70px;
+	padding-bottom: 70px;
+	text-align: center;
+}
+
+#dg h4 {
+	font-size: 40px;
+}
+
+.tilt {
+	-webkit-transition: all 0.5s ease;
+		-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+				-ms-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+}
+
+.tilt:hover {
+	-webkit-transition: rotate(-10deg);
+		-moz-transition: rotate(-10deg);
+			-o-transition: rotate(-10deg);
+				-ms-transition: rotate(-10deg);
+				transition: rotate(-10deg);
+}
+
+.wb {
+	padding-top: 35px;
+	margin-bottom: 
+}
+
+.wb  h4 {
+   font-size: 35px;
+}
+ #lg {
+ 	padding-top:  70px;
+	padding-bottom: 70px;
+	text-align: center;
+ }
+
+#lg h4 {
+font-size: 45px;	
+}
+
+ #r {
+    background: #FFD700
+ 	padding-top:  70px;
+	padding-bottom: 70px;
+	text-align: center;
+ }
+
+#r h4 {
+	color: white;
+font-size: 45px;	
+}
+#r p {
+	color: white;
+}
+
+#f {
+	 background: #366d6d;
+	 padding-top: 30px;
+	 padding-bottom: 20px;
+	}
+
+#f  i {
+	 background: #366d6d;
+	 font-size: 30px;
+	 padding: 20px;
+	}
+
+#f  i:hover {
+	color: #FFD700;
+		}
